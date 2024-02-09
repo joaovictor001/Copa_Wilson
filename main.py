@@ -76,7 +76,7 @@ def tratamento_cartas(lista):
         if lista[i] == 10:
             lista_tratada.append("3")
 
-        return lista_tratada
+    return lista_tratada
 
 def tratamento_naipe(lista):
     #"paus","ouro","espadas","copas"
@@ -91,18 +91,10 @@ def tratamento_naipe(lista):
         if lista[i] == "ouro":
             lista_tratada.append(1)
 
-        return lista_tratada
+    return lista_tratada
 
 test= print(type(sortear_baralho()))
-jogador1 = print(separar_cartas(sortear_baralho))
-
-
-
-
- 
-
-
-
-
+jogador1 = sortear_baralho()
+testando = print(separar_cartas(jogador1))
 
 
